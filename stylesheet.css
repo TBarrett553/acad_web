@@ -70,8 +70,13 @@ a {
 
 a:focus,
 a:hover {
-  color: #16BE9A;
+  color: #984E20;
   text-decoration: none;
+}
+h1 {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+  color: #984E20;
 }
 
 body,
@@ -106,7 +111,8 @@ h2 {
   padding-top: 20px;
   margin: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 40px;
+  color: #984E20;
 }
 
 .one {
@@ -116,7 +122,7 @@ h2 {
 }
 
 .spotlight {
-  background-color: #16BE9A;
+  background-color: #F1CA4F;
 }
 
 .two {
@@ -135,5 +141,5 @@ h2 {
 }
 
 span.highlight {
-  background-color: #16BE9A;
+  background-color: #F1CA4F;
 }
