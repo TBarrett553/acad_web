@@ -115,6 +115,10 @@ h2 {
   position: relative;
 }
 
+.spotlight {
+  background-color: #16BE9A;
+}
+
 .two {
   width: 160px;
   height: 160px;
@@ -131,5 +135,5 @@ h2 {
 }
 
 span.highlight {
-  background-color: #ffffff;
+  background-color: #16BE9A;
 }
