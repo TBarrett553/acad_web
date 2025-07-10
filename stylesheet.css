@@ -64,19 +64,14 @@
 }
 
 a {
-  color: #1772d0;
+  color: #2BA0A3;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #984E20;
+  color: #67CEC7;
   text-decoration: none;
-}
-h1 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
-  color: #984E20;
 }
 
 body,
@@ -86,24 +81,26 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
-h2 {
+h1 {
   margin: 0;
   font-weight: normal;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 32px;
+  color: #482519;
+  font-weight: bold;
 }
 
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
 }
 
@@ -111,18 +108,15 @@ h2 {
   padding-top: 20px;
   margin: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 40px;
-  color: #984E20;
+  font-size: 64px;
+  color: #482519;
+  font-weight: bold;
 }
 
 .one {
   width: 160px;
   height: 160px;
   position: relative;
-}
-
-.spotlight {
-  background-color: #F1CA4F;
 }
 
 .two {
@@ -141,5 +135,12 @@ h2 {
 }
 
 span.highlight {
-  background-color: #F1CA4F;
+  background-color: #DEE8C0;
+}
+
+.colored-box {
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
 }
