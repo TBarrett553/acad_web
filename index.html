@@ -12,15 +12,26 @@
   </head>
 
   <body style="background-color:#EFE3DC;">
-    <table style="width:100%;max-width:1000px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <table style="width:100%;max-width:1200px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <h1 class="name" style="text-align: left;">
-                  teanna barrett
-                </h1>
+                <div class="container">
+                  <h1 class="name" style="text-align: left;">
+                    teanna barrett
+                  </h1>
+                  <button id="pronounciation" onclick="playMusic()" style="background-color:#EFE3DC;border:none;">
+                    <img src="images/t_images/car-speakers.png" alt=A small icon of a care speaker.>
+                  </button>
+                  <script>
+                    function playMusic(){
+                      var pronounciation = new Audio("data/name.m4a");
+                      pronounciation.play();
+                    }
+                  </script> 
+                </div>
                 <p> I’m Teanna Barrett (she/her), a Ph.D. student at the University of Washington Allen School of Computer Science & Engineering. I'm co-advised by Amy Zhang, PhD and Leilani Battle, PhD. I'm the recipient of the <a href="https://www.engr.washington.edu/current/deans_scholarships"> 2024 - 25 College of Engineering Dean's Fellowship</a>, <a href="https://seattle.arcsfoundation.org/arcs-scholars/current-scholars"> 2024 - 27 ARCS Fellowship</a>, the <a href="https://new.expo.uw.edu/expo/scholarships/herbold">2025 - 26 Herbold Fellowship </a>, and a member of the <a href="https://www.cs.washington.edu/who-we-are/broadening-participation/leap-alliance/">LEAP Alliance</a>.
                 </p>
                 <p>I earned my B.S. in Computer Science with a minor in Philosophy at Howard University. I'm an alum of the <a href="https://karshstemscholars.howard.edu/about/cohorts/2019-2020-cohorts-3">Howard Universiy Karsh STEM Scholars</a> program.</p>

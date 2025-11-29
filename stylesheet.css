@@ -74,6 +74,11 @@ a:hover {
   text-decoration: none;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+}
+
 body,
 td,
 th,
