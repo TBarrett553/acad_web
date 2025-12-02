@@ -64,14 +64,19 @@
 }
 
 a {
-  color: #2BA0A3;
+  color: #226D64;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #67CEC7;
+  color: #64226d;
   text-decoration: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
 }
 
 body,
@@ -89,7 +94,8 @@ strong {
   font-size: 16px;
 }
 
-h1 {
+h1,
+h2 {
   margin: 0;
   font-weight: normal;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
